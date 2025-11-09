@@ -1,0 +1,23 @@
+snake case
+student_name
+
+camel case
+studentName
+
+string
+->sequence or collection of characters
+g='name'
+a='234'
+ immutable
+ has length
+ index
+ itarate
+
+special type of operator
+ membership operator:
+  gives boolean value
+  in or not in:
+ identity operator: cheks address
+  is or is not
+  smae: true
+  mot same: false
