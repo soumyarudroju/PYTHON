@@ -19,12 +19,10 @@ print(s)
 s=[x for x in range(1,101) if x%3==0 and x%5==0]
 print(s)
 
-
-print(s)
-
 s=[(x,x*x) for x in range(1,16)]
 print(s)
 
 l=[1,-8,5,-9,4,6,-7,-3]
 s=[x for x in l if x<0]
 print(s)
+
