@@ -26,3 +26,19 @@ l=[1,-8,5,-9,4,6,-7,-3]
 s=[x for x in l if x<0]
 print(s)
 
+
+'Write a list comprehension in Python that checks whether each number in a given list is "prime" or "not prime" and returns the result as a list.'
+n=[11,25,85,45]
+s=['prime' if all(x%y!=0 for y in range(2,x))  else 'not prime' for x in n]
+print(s)
+
+'Using list comprehension, generate a 2D list with the following structure'
+'input=[[1,2,3],[4,5,6],[7,8,9]] ==> output=[[1, 4, 7], [2, 5, 8], [3, 6, 9]]'
+r=[[1,2,3],[4,5,6],[7,8,9]]
+res=[[x[y]for x in r] for y in range(len(r[0]))]
+print(res)
+
+'Using list comprehension, generate a list of tuples mapping ASCII values to characters for uppercase letters A, B, C.'
+r=['A','B','C','a']
+s=tuple((x,ord(x)) for x in r if x.isupper())
+print(s)
